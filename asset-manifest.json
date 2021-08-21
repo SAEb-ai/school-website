@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/school-website/static/css/main.523fd54f.chunk.css",
+    "main.js": "/school-website/static/js/main.8bcf1b67.chunk.js",
+    "main.js.map": "/school-website/static/js/main.8bcf1b67.chunk.js.map",
+    "runtime-main.js": "/school-website/static/js/runtime-main.f22d1933.js",
+    "runtime-main.js.map": "/school-website/static/js/runtime-main.f22d1933.js.map",
+    "static/css/2.818011ed.chunk.css": "/school-website/static/css/2.818011ed.chunk.css",
+    "static/js/2.be24d56b.chunk.js": "/school-website/static/js/2.be24d56b.chunk.js",
+    "static/js/2.be24d56b.chunk.js.map": "/school-website/static/js/2.be24d56b.chunk.js.map",
+    "static/js/3.e2fb3827.chunk.js": "/school-website/static/js/3.e2fb3827.chunk.js",
+    "static/js/3.e2fb3827.chunk.js.map": "/school-website/static/js/3.e2fb3827.chunk.js.map",
+    "index.html": "/school-website/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/school-website/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.523fd54f.chunk.css.map": "/school-website/static/css/main.523fd54f.chunk.css.map",
+    "static/js/2.be24d56b.chunk.js.LICENSE.txt": "/school-website/static/js/2.be24d56b.chunk.js.LICENSE.txt",
+    "static/media/first.df07ec6f.jpeg": "/school-website/static/media/first.df07ec6f.jpeg",
+    "static/media/fourth.387ca850.jpeg": "/school-website/static/media/fourth.387ca850.jpeg",
+    "static/media/logo.6ce24c58.svg": "/school-website/static/media/logo.6ce24c58.svg",
+    "static/media/logo.73bcf618.jpeg": "/school-website/static/media/logo.73bcf618.jpeg",
+    "static/media/second.4a63f789.jpeg": "/school-website/static/media/second.4a63f789.jpeg",
+    "static/media/third.4dbc9e20.jpeg": "/school-website/static/media/third.4dbc9e20.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f22d1933.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.be24d56b.chunk.js",
+    "static/css/main.523fd54f.chunk.css",
+    "static/js/main.8bcf1b67.chunk.js"
+  ]
+}
