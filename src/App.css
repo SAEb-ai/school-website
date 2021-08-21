@@ -108,10 +108,24 @@
 .gh {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bolder;
-  font-size: 1.2rem;
-  text-shadow: 2px 2px 4px yellow;
-  color: green;
-  
+}
+.uu {
+  padding: 0px;
+  color: black;
+  text-decoration: underline;
+}
+
+.ss{
+  margin:10px;
+}
+.df {
+  position: absolute;
+  top: 219%;
+  left: 31%;
+
+}
+.kl{
+  width: 80vw;
 }
 .hj {
   font-family: cursive;
