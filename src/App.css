@@ -21,9 +21,9 @@
 }
 
 .ar {
-  background-color: red;
+  background-color: #277d28;;
   position: relative;
-  height: 70rem;
+  height: 76rem;
 }
 
 .am{
@@ -120,9 +120,9 @@
 }
 .df {
   position: absolute;
-  top: 219%;
+  top: 107%;
   left: 31%;
-
+  box-shadow: 1px 1px 24px black;
 }
 .kl{
   width: 80vw;

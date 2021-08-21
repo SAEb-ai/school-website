@@ -12,6 +12,7 @@ import fourth from "./images/fourth.jpeg";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 import { useState } from 'react';
+import Footer from './MyComponents/footer/footer';
 
 
 function App() {
@@ -86,7 +87,7 @@ function App() {
         >
           <Card.Header>Notice Board</Card.Header>
           <Card.Body>
-            <marquee width="100%" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" height="67%" bgcolor="white">
+            <marquee width="100%" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" height="94%" bgcolor="white">
               <ul className="uu">
                 <li className="ss">This is a sample scrolling text that has scrolls in the upper direction.</li>
                 <li className="ss">This is a sample scrolling text that has scrolls in the upper direction.</li>
@@ -101,6 +102,7 @@ function App() {
           </Card.Body>
         </Card>
       </div>
+      <Footer/>
 
     </div>
   );
