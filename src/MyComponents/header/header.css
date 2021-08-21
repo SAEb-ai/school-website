@@ -1,0 +1,71 @@
+.App-header {
+    background-color: white;
+    border-bottom: 2px solid black;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+.image {
+    margin-left: 40px;
+}
+.logo {
+      display: flex;
+      flex-direction: column;
+}
+.name {
+    color: red;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid white;
+    box-sizing: border-box;
+    width: 55%;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: white; 
+    }
+}
+.desc {
+    color:gray;
+    margin-top: 0px;
+    overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+.name-desc {
+    margin: 23px;
+}
+
+.search {
+    margin: 3%;
+    margin-left: 38%;
+}
