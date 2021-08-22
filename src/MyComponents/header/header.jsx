@@ -2,7 +2,9 @@ import React from "react";
 import logo from "../../images/logo.jpeg";
 import "./header.css";
 import { Input } from '@material-ui/core';
-
+import FacebookIcon from '@material-ui/icons/Facebook';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import TwitterIcon from '@material-ui/icons/Twitter';
 
 export default function Header() {
     return (
@@ -15,11 +17,16 @@ export default function Header() {
                     <h1 className="name">Nirmal Bharati</h1>
                     <h2 className="desc">School of Child Education</h2>
                 </div>
+                <div className="social">
+                    <FacebookIcon />
+                    <InstagramIcon />
+                    <TwitterIcon />
+                </div>
                 <div className="search">
-                <Input placeholder="Search the site" inputProps={{ 'aria-label': 'description' }} />
+                    <Input placeholder="Search the site" inputProps={{ 'aria-label': 'description' }} />
 
                 </div>
-                
+
             </div>
         </>
     );

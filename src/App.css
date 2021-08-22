@@ -16,26 +16,29 @@
   height: 32rem;
   box-shadow: 1px 3px 33px black;
 }
+.oi {
+  height: 33.5rem;
+}
 .ar {
   background-color:orange;
-  height: 76rem;
-    width: 100vw;
+  
+  width: 100vw;
   display: grid;
-  grid-template-columns: 0.3fr 2fr 2fr 0.3fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
+  padding: 83px;
 }
 .grid-1 {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  overflow: hidden;
+  grid-column-start: 1;
+  grid-column-end: 2;
 
 }
 .grid-2 {
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 .grid-3 {
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 4;
 }
 .am{
@@ -174,22 +177,22 @@
   .grid-1 {
     grid-row-start: 1;
     grid-row-end: 2;
-    grid-column-start:2 ;
-    grid-column-end: 4;
+    grid-column-start:1 ;
+    grid-column-end: 5;
     overflow: hidden;
   
   }
   .grid-2 {
     grid-row-start: 2;
     grid-row-end: 3;
-    grid-column-start:2 ;
-    grid-column-end: 4;
+    grid-column-start:1 ;
+    grid-column-end: 5;
   }
   .grid-3 {
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start:2 ;
-    grid-column-end: 4;
+    grid-column-start:1 ;
+    grid-column-end: 5;
   }
 }
 

@@ -35,9 +35,9 @@ function App() {
             <Nav.Link href="#home" className="white">Home</Nav.Link>
             <Nav.Link href="#features" className="white">About</Nav.Link>
             <Nav.Link href="#pricing" className="white">Contact Us</Nav.Link>
-            <Nav.Link href="#pricing"className="green">SignUp</Nav.Link>
-            <Nav.Link href="#pricing" className="green">SignIn</Nav.Link>
-            <Nav.Link href="#pricing" className="red">Admin</Nav.Link>
+            <Nav.Link href="#pricing" className="white">Feedback</Nav.Link>
+            <Nav.Link href="#pricing" className="white">Achievements</Nav.Link>
+            <Nav.Link href="#pricing" className="white">Activities</Nav.Link>
             <Nav.Link href="#pricing" className="green">Admissions 2021</Nav.Link>
           </Nav>
           </Navbar.Collapse>
@@ -52,7 +52,7 @@ function App() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={first} width="400px" height="560px"
+                src={first} width="400px" height="510px"
                 alt="First slide"
               />
               <Carousel.Caption className="absolute">
@@ -63,7 +63,7 @@ function App() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={second} width="400px" height="560px"
+                src={second} width="400px" height="510px"
                 alt="Second slide"
               />
 
@@ -77,7 +77,7 @@ function App() {
                 className="d-block w-100"
                 src={third}
                 alt="Third slide"
-                width="400px" height="560px"
+                width="400px" height="510px"
               />
 
               <Carousel.Caption className="absolute">
@@ -112,9 +112,10 @@ function App() {
               text={'Success'.toLowerCase() === 'light' ? 'dark' : 'white'}
 
               className="mb-2"
+              
             >
               <Card.Header>Notice Board</Card.Header>
-              <Card.Body>
+              <Card.Body className="oi">
                 <marquee width="100%" direction="up" onMouseOver="this.stop()" onMouseOut="this.start()" height="94%" bgcolor="white">
                   <ul className="uu">
                     <li className="ss">This is a sample scrolling text that has scrolls in the upper direction.</li>

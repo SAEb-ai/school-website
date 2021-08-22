@@ -24,7 +24,7 @@
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 59px;
     font-weight: 700;
     border-right: 4px solid white;
     box-sizing: border-box;
@@ -76,7 +76,7 @@
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 18px;
+    font-size: 26px;
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;
@@ -88,5 +88,5 @@
 
 .search {
     margin: 3%;
-    margin-left: 38%;
+    margin-left: 26%;
 }
