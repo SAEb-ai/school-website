@@ -30,7 +30,28 @@
     box-sizing: border-box;
     width: 55%;
 }
-
+@media screen and (max-width: 1363px) {
+    .search {
+      display: none;
+    }
+  }
+@media screen and (max-width: 674px) {
+    .App-header {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 674px) {
+    .name {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 460px) {
+    .name {
+        font-size: 2rem;
+    }
+    
+  }
 @keyframes typing {
     from { 
         width: 0% 
@@ -55,7 +76,7 @@
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;

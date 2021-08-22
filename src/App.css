@@ -13,25 +13,32 @@
   }
 }
 .ad {
-  width: 33%;
-  position:absolute;
-  top: 10%;
-  left: 183px;
+  height: 32rem;
   box-shadow: 1px 3px 33px black;
 }
-
 .ar {
-  background-color: #277d28;;
-  position: relative;
+  background-color:orange;
   height: 76rem;
+    width: 100vw;
+  display: grid;
+  grid-template-columns: 0.3fr 2fr 2fr 0.3fr;
+  grid-gap: 4rem;
 }
+.grid-1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  overflow: hidden;
 
+}
+.grid-2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.grid-3 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
 .am{
-  position: absolute;
-  top:10%;
-  right: 20%;
-  width:501px;
-  width:400px;
   box-shadow: 1px 3px 33px black;
 }
 
@@ -119,9 +126,6 @@
   margin:10px;
 }
 .df {
-  position: absolute;
-  top: 107%;
-  left: 31%;
   box-shadow: 1px 1px 24px black;
 }
 .kl{
@@ -131,20 +135,66 @@
   font-family: cursive;
 }
 .fd {
-  position: absolute;
-  top: 3%;
-  left: 22%;
   font-size: 3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
 
 .ed {
-  position: absolute;
-  top: 3%;
-  right: 17%;
+  
   font-size: 3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width:80vw;
+}
+
+.white:hover {
+  background-color:rgb(129, 161, 81);  
+  border-radius: 4px;
+}
+.green:hover {
+  background-color: green;
+  border-radius: 4px;
+}
+.red:hover {
+  background-color: red;
+  border-radius: 4px;
+}
+@media screen and (max-width: 1112px) {
+  .ar {
+    grid-template-rows: 4fr 4fr 4fr;
+    height:138rem;
+  }
+  .grid-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+    overflow: hidden;
+  
+  }
+  .grid-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+  }
+  .grid-3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start:2 ;
+    grid-column-end: 4;
+  }
+}
+
+@media screen and (max-width: 1363px) {
+  .search {
+    display: none;
+  }
+}
