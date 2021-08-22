@@ -28,18 +28,18 @@ function App() {
 
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container className="cont">
-         
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" className="flex">
-            <Nav.Link href="#home" className="white">Home</Nav.Link>
-            <Nav.Link href="#features" className="white">About</Nav.Link>
-            <Nav.Link href="#pricing" className="white">Contact Us</Nav.Link>
-            <Nav.Link href="#pricing" className="white">Feedback</Nav.Link>
-            <Nav.Link href="#pricing" className="white">Achievements</Nav.Link>
-            <Nav.Link href="#pricing" className="white">Activities</Nav.Link>
-            <Nav.Link href="#pricing" className="green">Admissions 2021</Nav.Link>
-          </Nav>
+            <Nav className="me-auto" className="flex">
+              <Nav.Link href="#home" className="white">Home</Nav.Link>
+              <Nav.Link href="#features" className="white">About</Nav.Link>
+              <Nav.Link href="#pricing" className="white">Contact Us</Nav.Link>
+              <Nav.Link href="#pricing" className="white">Feedback</Nav.Link>
+              <Nav.Link href="#pricing" className="white">Achievements</Nav.Link>
+              <Nav.Link href="#pricing" className="white">Activities</Nav.Link>
+              <Nav.Link href="#pricing" className="green">Admissions 2021</Nav.Link>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
@@ -112,7 +112,7 @@ function App() {
               text={'Success'.toLowerCase() === 'light' ? 'dark' : 'white'}
 
               className="mb-2"
-              
+
             >
               <Card.Header>Notice Board</Card.Header>
               <Card.Body className="oi">
@@ -134,6 +134,10 @@ function App() {
         </div>
       </div>
       <Footer />
+      <div className="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115408.23982812326!2d82.92106856136766!3d25.320746099824227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e2db76febcf4d%3A0x68131710853ff0b5!2sVaranasi%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1629664419593!5m2!1sen!2sin" width="1700" height="300" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
 
     </div>
   );
