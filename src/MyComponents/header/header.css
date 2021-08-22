@@ -28,7 +28,7 @@
     font-weight: 700;
     border-right: 4px solid white;
     box-sizing: border-box;
-    width: 55%;
+    width: 100%;
 }
 @media screen and (max-width: 1363px) {
     .search {
