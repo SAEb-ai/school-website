@@ -16,12 +16,13 @@ export default function Header() {
                 <div className="name-desc">
                     <h1 className="name">Nirmal Bharati</h1>
                     <h2 className="desc">School of Child Education</h2>
+                    <div className="uy">
+                        <marquee width="100%" direction="left" height="100px">
+                            Affliated to CBSE, Nirmal Bharti is an institution set up to integrate the existing physical,psychological,social and natural elements.
+                        </marquee>
+                    </div>
                 </div>
-                <div className="social">
-                    <FacebookIcon />
-                    <InstagramIcon />
-                    <TwitterIcon />
-                </div>
+                
                 <div className="search">
                     <Input placeholder="Search the site" inputProps={{ 'aria-label': 'description' }} />
 

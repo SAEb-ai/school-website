@@ -169,10 +169,18 @@
   background-color: red;
   border-radius: 4px;
 }
+@media screen and (max-width: 551px) {
+  .ar {
+    height: 110rem;
+  }
+  .line-1 {
+    display: none;
+  }
+}
 @media screen and (max-width: 1112px) {
   .ar {
     grid-template-rows: 4fr 4fr 4fr;
-    height:138rem;
+    height:108Srem;
   }
   .grid-1 {
     grid-row-start: 1;

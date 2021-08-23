@@ -39,6 +39,10 @@
     .App-header {
       flex-direction: column;
     }
+    .desc {
+      display: flex;
+      justify-content: center;
+    }
   }
   @media screen and (max-width: 674px) {
     .name {
@@ -76,10 +80,11 @@
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
     white-space: nowrap;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: 700;
     border-right: 4px solid orange;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .name-desc {
@@ -88,5 +93,14 @@
 
 .search {
     margin: 3%;
-    margin-left: 26%;
+    margin-left: -15%;
+}
+
+.uy {
+  height: 4.1vh;
+  background-color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: yellow;
+  text-shadow: 1px 0px 5px black;
 }
