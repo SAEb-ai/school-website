@@ -65,6 +65,28 @@
   font-family: 'Ubuntu', sans-serif;
   animation: typing 5s steps(30, end);
 }
+
+.about {
+  
+  background-color: orange;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.abt {
+  width: 50vw;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 23px;
+  box-shadow: 0px 0px 14px #beed00;
+  padding: 1rem;
+  font-weight: 900;
+  font-family: 'Ubuntu',sans-serif;
+  text-shadow: 0px 0px 1px #ffc107;
+}
 @keyframes typing {
   from { 
       width: 0% 
