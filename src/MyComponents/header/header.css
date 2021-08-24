@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 0px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Courgette', cursive;
     overflow: hidden;
   	letter-spacing: 2px;
  	animation: typing 5s steps(30, end), blink .75s step-end infinite;
@@ -29,6 +29,7 @@
     border-right: 4px solid white;
     box-sizing: border-box;
     width: 100%;
+    text-shadow: 1px 1px 4px black;
 }
 @media screen and (max-width: 1363px) {
     .search {
@@ -74,7 +75,7 @@
     }
 }
 .desc {
-    color:gray;
+    color:blue;
     margin-top: 0px;
     overflow: hidden;
   	letter-spacing: 2px;
@@ -82,6 +83,7 @@
     white-space: nowrap;
     font-size: 21px;
     font-weight: 700;
+    text-shadow: 0.5px 0.5px 15px black;
     border-right: 4px solid orange;
     box-sizing: border-box;
     text-align: left;
