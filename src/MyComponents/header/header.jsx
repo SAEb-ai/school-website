@@ -18,7 +18,7 @@ export default function Header() {
                     <h2 className="desc">School of Child Education</h2>
                     <div className="uy">
                         <marquee width="100%" direction="left" height="100px">
-                            Affliated to CBSE, Nirmal Bharti is an institution set up to integrate the existing physical,psychological,social and natural elements.
+                            Affliated to CBSE, Formerly conceived by J.K. Memorial Society, Paramanandpur, Shivpur, Varanasi, on 28th April,2003,Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements to help the individual child realize his own spiritual being and create his own personality by manifesting his inhrerent-potential  
                         </marquee>
                     </div>
                 </div>
