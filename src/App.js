@@ -45,7 +45,7 @@ function App() {
       </Navbar>
   
       <div className="about">
-        <h1 className="ed">About Us</h1>
+        
         <div className="abt">
           Formerly conceived by J.K. Memorial Society, Paramanandpur, Shivpur, Varanasi, on 28th April,2003,Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements to help the individual child realize his own spiritual being and create his own personality by manifesting his inhrerent-potential
         </div>
