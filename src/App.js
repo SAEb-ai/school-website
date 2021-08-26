@@ -74,7 +74,7 @@ function App() {
               />
 
               <Carousel.Caption className="absolute">
-                <h3 className="line-1 anim-typewriter">Co-circular Activities</h3>
+                <h3 className="line-1 anim-typewriter">Co-curricular Activities</h3>
 
               </Carousel.Caption>
             </Carousel.Item>
