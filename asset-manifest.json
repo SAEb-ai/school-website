@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/school-website/static/css/main.bc5dd78d.chunk.css",
-    "main.js": "/school-website/static/js/main.569087bc.chunk.js",
-    "main.js.map": "/school-website/static/js/main.569087bc.chunk.js.map",
+    "main.js": "/school-website/static/js/main.9b53f888.chunk.js",
+    "main.js.map": "/school-website/static/js/main.9b53f888.chunk.js.map",
     "runtime-main.js": "/school-website/static/js/runtime-main.03421090.js",
     "runtime-main.js.map": "/school-website/static/js/runtime-main.03421090.js.map",
     "static/css/2.818011ed.chunk.css": "/school-website/static/css/2.818011ed.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.61cb366c.chunk.js",
     "static/css/main.bc5dd78d.chunk.css",
-    "static/js/main.569087bc.chunk.js"
+    "static/js/main.9b53f888.chunk.js"
   ]
 }
