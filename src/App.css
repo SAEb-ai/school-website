@@ -70,12 +70,15 @@
 .about {
   
   background-color: orange;
-  
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+}
+.inc {
+  width: 100vw;
 }
 .abt {
   width: 67vw;

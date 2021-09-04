@@ -26,7 +26,7 @@ function App() {
     <div className="App">
       <Header></Header>
 
-      <Navbar bg="dark" variant="dark" expand="lg">
+      <Navbar bg="dark" variant="dark" expand="lg" className="inc">
         <Container className="cont">
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -47,12 +47,11 @@ function App() {
       <div className="about">
         
         <div className="abt">
-          Formerly conceived by J.K. Memorial Society, Paramanandpur, Shivpur, Varanasi, on 28th April,2003,Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements to help the individual child realize his own spiritual being and create his own personality by manifesting his inhrerent-potential
+          Formerly conceived by J.K. Memorial Society, Paramanandpur, Shivpur, Varanasi, on 28th April,2003,Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements to help the individual child realize his own spiritual being and create his own personality by manifesting his inhrerent-potential.
         </div>
         </div>
       <div className="ar">
         <div className="grid-1">
-          <h1 className="fd">Gallery</h1>
 
           <Carousel fade className="ad">
             <Carousel.Item>
@@ -96,7 +95,6 @@ function App() {
 
         </div>
         <div className="grid-2">
-          <h1 className="ed">Principal's Desk</h1>
           <div className="am">
             <Card >
               <Card.Img variant="top" src={fourth} />

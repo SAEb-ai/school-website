@@ -18,7 +18,7 @@ export default function Header() {
                     <h2 className="desc">School of Child Education</h2>
                     <div className="uy">
                         <marquee width="100%" direction="left" height="100px">
-                            Affliated to CBSE, Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements. 
+                            Nirmal Bharati is an institution set up to integrate the existing physical, psychological, social and natural elements. 
                         </marquee>
                     </div>
                 </div>

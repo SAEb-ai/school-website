@@ -6,6 +6,7 @@
     flex-direction: row;
     font-size: calc(10px + 2vmin);
     color: white;
+    width: 100vw;
 }
 .image {
     margin-left: 40px;

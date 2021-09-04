@@ -5,7 +5,7 @@ export const Box = styled.div`
   background: black;
   position: absolute;
   
-  width: 100%;
+  width: 100vw;
   
    
   @media (max-width: 1000px) {
@@ -31,13 +31,12 @@ export const Column = styled.div`
    
 export const Row = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, 
-                         minmax(185px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));
+                           minmax(359px, 1fr));
   }
 `;
    
